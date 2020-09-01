@@ -1,0 +1,71 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    async (1.26.2)
+      console (~> 1.0)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    async-http (0.52.4)
+      async (~> 1.25)
+      async-io (~> 1.28)
+      async-pool (~> 0.2)
+      protocol-http (~> 0.20.0)
+      protocol-http1 (~> 0.13.0)
+      protocol-http2 (~> 0.14.0)
+    async-io (1.30.0)
+      async (~> 1.14)
+    async-pool (0.3.2)
+      async (~> 1.25)
+    async-rest (0.10.1)
+      async-http (~> 0.42)
+      protocol-http (~> 0.7)
+    aws-eventstream (1.1.0)
+    aws-partitions (1.362.0)
+    aws-sdk-cloudfront (1.39.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.105.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-ec2 (1.191.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-elasticloadbalancing (1.27.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-elasticloadbalancingv2 (1.49.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.2.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    cloudflare (4.2.1)
+      async-rest (~> 0.10.0)
+    console (1.9.0)
+    jmespath (1.4.0)
+    nio4r (2.5.2)
+    protocol-hpack (1.4.2)
+    protocol-http (0.20.0)
+    protocol-http1 (0.13.0)
+      protocol-http (~> 0.19)
+    protocol-http2 (0.14.0)
+      protocol-hpack (~> 1.4)
+      protocol-http (~> 0.18)
+    timers (4.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk-cloudfront
+  aws-sdk-ec2
+  aws-sdk-elasticloadbalancing
+  aws-sdk-elasticloadbalancingv2
+  cloudflare
+
+RUBY VERSION
+   ruby 2.7.1p83
+
+BUNDLED WITH
+   2.1.4
